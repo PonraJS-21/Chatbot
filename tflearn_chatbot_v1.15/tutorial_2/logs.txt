@@ -1,0 +1,197 @@
+(tensorflow) D:\Education Content\Dev Tools\Python\Python_Project\Simple Python Examples\Chatbot\tflearn_chatbot\tutorial_2>python chatbot.py
+curses is not supported on this machine (please install/reinstall curses for an optimal experience)
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\helpers\summarizer.py:9: The name tf.summary.merge is deprecated. Please use tf.compat.v1.summary.merge instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\helpers\trainer.py:25: The name tf.summary.FileWriter is deprecated. Please use tf.compat.v1.summary.FileWriter instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\collections.py:13: The name tf.GraphKeys is deprecated. Please use tf.compat.v1.GraphKeys instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\config.py:123: The name tf.get_collection is deprecated. Please use tf.compat.v1.get_collection instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\config.py:129: The name tf.add_to_collection is deprecated. Please use tf.compat.v1.add_to_collection instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\config.py:131: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+Words:   ['Hi']
+extended:   ['Hi']
+Words:   ['How', 'are', 'you']
+extended:   ['Hi', 'How', 'are', 'you']
+Words:   ['Is', 'anyone', 'there', '?']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?']
+Words:   ['Hello']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello']
+Words:   ['Good', 'day']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day']
+Words:   ['Bye']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye']
+Words:   ['See', 'you', 'later']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later']
+Words:   ['Goodbye']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye']
+Words:   ['Thanks']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks']
+Words:   ['Thank', 'you']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks', 'Thank', 'you']
+Words:   ['That', "'s", 'helpful']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks', 'Thank', 'you', 'That', "'s", 'helpful']
+Words:   ['What', 'hours', 'are', 'you', 'open', '?']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks', 'Thank', 'you', 'That', "'s", 'helpful', 'What', 'hours', 'are', 'you', 'open', '?']
+Words:   ['What', 'are', 'your', 'hours', '?']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks', 'Thank', 'you', 'That', "'s", 'helpful', 'What', 'hours', 'are', 'you', 'open', '?', 'What', 'are', 'your', 'hours', '?']
+Words:   ['When', 'are', 'you', 'open', '?']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks', 'Thank', 'you', 'That', "'s", 'helpful', 'What', 'hours', 'are', 'you', 'open', '?', 'What', 'are', 'your', 'hours', '?', 'When', 'are', 'you', 'open', '?']
+Words:   ['Do', 'you', 'take', 'credit', 'cards', '?']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks', 'Thank', 'you', 'That', "'s", 'helpful', 'What', 'hours', 'are', 'you', 'open', '?', 'What', 'are', 'your', 'hours', '?', 'When', 'are', 'you', 'open', '?', 'Do', 'you', 'take', 'credit', 'cards', '?']
+Words:   ['Do', 'you', 'accept', 'Mastercard', '?']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks', 'Thank', 'you', 'That', "'s", 'helpful', 'What', 'hours', 'are', 'you', 'open', '?', 'What', 'are', 'your', 'hours', '?', 'When', 'are', 'you', 'open', '?', 'Do', 'you', 'take', 'credit', 'cards', '?', 'Do', 'you', 'accept', 'Mastercard', '?']
+Words:   ['Are', 'you', 'cash', 'only', '?']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks', 'Thank', 'you', 'That', "'s", 'helpful', 'What', 'hours', 'are', 'you', 'open', '?', 'What', 'are', 'your', 'hours', '?', 'When', 'are', 'you', 'open', '?', 'Do', 'you', 'take', 'credit', 'cards', '?', 'Do', 'you', 'accept', 'Mastercard', '?', 'Are', 'you', 'cash', 'only', '?']
+Words:   ['Are', 'you', 'open', 'today', '?']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks', 'Thank', 'you', 'That', "'s", 'helpful', 'What', 'hours', 'are', 'you', 'open', '?', 'What', 'are', 'your', 'hours', '?', 'When', 'are', 'you', 'open', '?', 'Do', 'you', 'take', 'credit', 'cards', '?', 'Do', 'you', 'accept', 'Mastercard', '?', 'Are', 'you', 'cash', 'only', '?', 'Are', 'you', 'open', 'today', '?']
+Words:   ['When', 'do', 'you', 'open', 'today', '?']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks', 'Thank', 'you', 'That', "'s", 'helpful', 'What', 'hours', 'are', 'you', 'open', '?', 'What', 'are', 'your', 'hours', '?', 'When', 'are', 'you', 'open', '?', 'Do', 'you', 'take', 'credit', 'cards', '?', 'Do', 'you', 'accept', 'Mastercard', '?', 'Are', 'you', 'cash', 'only', '?', 'Are', 'you', 'open', 'today', '?', 'When', 'do', 'you', 'open', 'today', '?']
+Words:   ['What', 'are', 'your', 'hours', 'today', '?']
+extended:   ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks', 'Thank', 'you', 'That', "'s", 'helpful', 'What', 'hours', 'are', 'you', 'open', '?', 'What', 'are', 'your', 'hours', '?', 'When', 'are', 'you', 'open', '?', 'Do', 'you', 'take', 'credit', 'cards', '?', 'Do', 'you', 'accept', 'Mastercard', '?', 'Are', 'you', 'cash', 'only', '?', 'Are', 'you', 'open', 'today', '?', 'When', 'do', 'you', 'open', 'today', '?', 'What', 'are', 'your', 'hours', 'today', '?']
+Before: ==================================> ['Hi', 'How', 'are', 'you', 'Is', 'anyone', 'there', '?', 'Hello', 'Good', 'day', 'Bye', 'See', 'you', 'later', 'Goodbye', 'Thanks', 'Thank', 'you', 'That', "'s", 'helpful', 'What', 'hours', 'are', 'you', 'open', '?', 'What', 'are', 'your', 'hours', '?', 'When', 'are', 'you', 'open', '?', 'Do', 'you', 'take', 'credit', 'cards', '?', 'Do', 'you', 'accept', 'Mastercard', '?', 'Are', 'you', 'cash', 'only', '?', 'Are', 'you', 'open', 'today', '?', 'When', 'do', 'you', 'open', 'today', '?', 'What', 'are', 'your', 'hours', 'today', '?']
+After:  ==================================> ["'s", 'acceiv', 'anyon', 'ar', 'bye', 'card', 'cash', 'credit', 'day', 'do', 'good', 'goodby', 'hello', 'help', 'hi', 'hour', 'how', 'is', 'lat', 'mastercard', 'on', 'op', 'see', 'tak', 'thank', 'that', 'ther', 'today', 'what', 'when', 'yo', 'you']
+------------------------------------> wrds:   ['hi']
+==================================>
+bag:     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+output_row:   [0, 1, 0, 0, 0, 0]
+==================================>
+------------------------------------> wrds:   ['how', 'ar', 'you']
+==================================>
+bag:     [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+output_row:   [0, 1, 0, 0, 0, 0]
+==================================>
+------------------------------------> wrds:   ['is', 'anyon', 'ther', '?']
+==================================>
+bag:     [0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0]
+output_row:   [0, 1, 0, 0, 0, 0]
+==================================>
+------------------------------------> wrds:   ['hello']
+==================================>
+bag:     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+output_row:   [0, 1, 0, 0, 0, 0]
+==================================>
+------------------------------------> wrds:   ['good', 'day']
+==================================>
+bag:     [0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+output_row:   [0, 1, 0, 0, 0, 0]
+==================================>
+------------------------------------> wrds:   ['bye']
+==================================>
+bag:     [0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+output_row:   [1, 0, 0, 0, 0, 0]
+==================================>
+------------------------------------> wrds:   ['see', 'you', 'lat']
+==================================>
+bag:     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+output_row:   [1, 0, 0, 0, 0, 0]
+==================================>
+------------------------------------> wrds:   ['goodby']
+==================================>
+bag:     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+output_row:   [1, 0, 0, 0, 0, 0]
+==================================>
+------------------------------------> wrds:   ['thank']
+==================================>
+bag:     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0]
+output_row:   [0, 0, 0, 0, 0, 1]
+==================================>
+------------------------------------> wrds:   ['thank', 'you']
+==================================>
+bag:     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1]
+output_row:   [0, 0, 0, 0, 0, 1]
+==================================>
+------------------------------------> wrds:   ['that', "'s", 'help']
+==================================>
+bag:     [1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0]
+output_row:   [0, 0, 0, 0, 0, 1]
+==================================>
+------------------------------------> wrds:   ['what', 'hour', 'ar', 'you', 'op', '?']
+==================================>
+bag:     [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1]
+output_row:   [0, 0, 1, 0, 0, 0]
+==================================>
+------------------------------------> wrds:   ['what', 'ar', 'yo', 'hour', '?']
+==================================>
+bag:     [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0]
+output_row:   [0, 0, 1, 0, 0, 0]
+==================================>
+------------------------------------> wrds:   ['when', 'ar', 'you', 'op', '?']
+==================================>
+bag:     [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1]
+output_row:   [0, 0, 1, 0, 0, 0]
+==================================>
+------------------------------------> wrds:   ['do', 'you', 'tak', 'credit', 'card', '?']
+==================================>
+bag:     [0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1]
+output_row:   [0, 0, 0, 0, 1, 0]
+==================================>
+------------------------------------> wrds:   ['do', 'you', 'acceiv', 'mastercard', '?']
+==================================>
+bag:     [0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+output_row:   [0, 0, 0, 0, 1, 0]
+==================================>
+------------------------------------> wrds:   ['ar', 'you', 'cash', 'on', '?']
+==================================>
+bag:     [0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1]
+output_row:   [0, 0, 0, 0, 1, 0]
+==================================>
+------------------------------------> wrds:   ['ar', 'you', 'op', 'today', '?']
+==================================>
+bag:     [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1]
+output_row:   [0, 0, 0, 1, 0, 0]
+==================================>
+------------------------------------> wrds:   ['when', 'do', 'you', 'op', 'today', '?']
+==================================>
+bag:     [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1]
+output_row:   [0, 0, 0, 1, 0, 0]
+==================================>
+------------------------------------> wrds:   ['what', 'ar', 'yo', 'hour', 'today', '?']
+==================================>
+bag:     [0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0]
+output_row:   [0, 0, 0, 1, 0, 0]
+==================================>
+WARNING:tensorflow:From chatbot.py:84: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\layers\core.py:81: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\layers\core.py:145: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\initializations.py:174: calling TruncatedNormal.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\optimizers.py:238: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\objectives.py:66: calling reduce_sum_v1 (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+Instructions for updating:
+keep_dims is deprecated, use keepdims instead
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\objectives.py:70: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\layers\estimator.py:189: The name tf.trainable_variables is deprecated. Please use tf.compat.v1.trainable_variables instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\helpers\trainer.py:571: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\helpers\trainer.py:115: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-04-10 15:14:50.811970: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\summaries.py:46: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tensorflow_core\python\ops\math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\helpers\trainer.py:134: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\helpers\trainer.py:164: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\helpers\trainer.py:165: The name tf.local_variables_initializer is deprecated. Please use tf.compat.v1.local_variables_initializer instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\helpers\trainer.py:166: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+WARNING:tensorflow:From D:\Intalled Softwares\Anaconda\envs\tensorflow\lib\site-packages\tflearn\helpers\trainer.py:167: The name tf.get_collection_ref is deprecated. Please use tf.compat.v1.get_collection_ref instead.
+
+Start talking with the bot (type quit to stop)!
+You: hi
+Hello, thanks for visiting
